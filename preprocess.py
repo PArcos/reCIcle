@@ -7,7 +7,7 @@ from keras import backend as K
 # Check https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
 batch_size = 16
-img_width, img_height = 150, 150
+img_width, img_height = 64, 64
 
 train_data_dir = 'data/train'
 validation_data_dir = 'data/validation'
